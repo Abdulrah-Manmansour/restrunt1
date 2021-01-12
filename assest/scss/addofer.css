@@ -535,6 +535,9 @@ footer .imgfooter img {
   .customer .customer1 .span100 {
     top: 80px;
   }
+  .customer nav .box {
+    display: none;
+  }
   .meal .back {
     left: -10px;
     bottom: -12px;

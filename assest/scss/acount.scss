@@ -399,16 +399,16 @@ margin-right: 4px;
     .fa-hamburger {
         transform: translateY(-20px);
     }
-
 }
-@media(max-width:480px){
+@media(max-width:768px){
     nav{
         .box{
-            i{
-                margin-left: 5px;
-            }
+            display: none;
         }
     }
+}
+@media(max-width:480px){
+ 
     nav{
        
         .fa-user-circle{

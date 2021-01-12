@@ -677,6 +677,7 @@ margin-right: 4px;
                 top: 80px;
             }
          }
+        
      }
      .meal{
          .back{
@@ -684,6 +685,11 @@ margin-right: 4px;
              bottom: -12px;
          }
      }
+     nav{
+        .box{
+            display: none;
+        }
+    }
  }
  @media(max-width:480px){
      nav{

@@ -754,6 +754,9 @@ footer .imgfooter img {
   .home100 .btn-login img {
     width: 75%;
   }
+  nav .box {
+    display: none;
+  }
 }
 
 @media (max-width: 608px) {

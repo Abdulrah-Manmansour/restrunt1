@@ -479,6 +479,15 @@ footer .imgfooter img {
   .meal .image-mael img {
     width: 100%;
   }
+  .ordernav {
+    margin-top: 58px;
+  }
+}
+
+@media (max-width: 767px) {
+  nav .box {
+    display: none;
+  }
 }
 
 @media (max-width: 535px) {

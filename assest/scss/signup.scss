@@ -472,6 +472,13 @@ margin-right: 4px;
      }
    }
  }
+ @media(max-width:768px){
+    nav{
+        .box{
+            display: none;
+        }
+    }
+ }
  @media(max-width:480px){
     nav{
         .box{

@@ -702,6 +702,11 @@ img{
        }
         }
        }
+       nav{
+        .box{
+            display: none;
+        }
+    }
 }
 @media(max-width:608px){
 .search {

@@ -511,6 +511,9 @@ footer .imgfooter img {
   .orderlist .btnaccept2 {
     margin-top: 15px;
   }
+  nav .box {
+    display: none;
+  }
 }
 
 @media (max-width: 551px) {

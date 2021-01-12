@@ -553,6 +553,15 @@ footer .imgfooter img {
   .ordernav .lineorder1 {
     margin-right: 0;
   }
+  nav .box {
+    display: none;
+  }
+  .orderlist .btnaccept9 {
+    margin-top: 12px;
+  }
+  .orderlist .btnaccept8 {
+    margin-top: 12px;
+  }
 }
 
 @media (max-width: 551px) {

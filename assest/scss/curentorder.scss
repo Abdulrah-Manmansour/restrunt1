@@ -469,6 +469,11 @@ margin-right: 4px;
     .orderlist .btnaccept2{
         margin-top: 15px;
     }
+    nav{
+        .box{
+            display: none;
+        }
+    }
  }
  @media(max-width:551px){
      .ordernav .item2 h3{

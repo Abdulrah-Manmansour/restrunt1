@@ -447,10 +447,13 @@ footer .imgfooter img {
   }
 }
 
-@media (max-width: 480px) {
-  nav .box i {
-    margin-left: 5px;
+@media (max-width: 768px) {
+  nav .box {
+    display: none;
   }
+}
+
+@media (max-width: 480px) {
   nav .fa-user-circle {
     margin-right: 0;
     -webkit-transform: translateX(10px);
