@@ -370,116 +370,56 @@ nav .box input {
 
 .customer .slider-food {
   background-color: #ff4057;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
-.item {
+.slider-food .item {
+  width: 300px;
+  position: relative;
+  margin: auto;
+}
+
+.slider-food .item img {
+  width: 100%;
+  border-radius: 18px;
   height: 300px;
-  overflow: hidden;
-  -webkit-transition: .3s all ease-in-out;
-  transition: .3s all ease-in-out;
 }
 
-.item img {
+.slider-food .item .over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
-}
-
-.item .overlay {
-  position: absolute;
-  top: 0;
-  border-radius: 17px;
-  left: 0;
+  border-radius: 18px;
   color: #fff;
-  text-align: center;
-  width: 300px;
-  right: 3px;
-  bottom: 0;
-  padding-top: 110px;
-  height: 290px;
-  opacity: 0;
-  cursor: pointer;
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
-  -webkit-transition: .3s all ease-in-out;
-  transition: .3s all ease-in-out;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.item .overlay a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.item:hover .overlay {
-  opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-
-.item:hover .overlay1 {
-  opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-
-.overlay1 {
-  position: absolute;
-  top: 0;
-  border-radius: 17px;
-  left: 0;
-  color: #fff;
-  text-align: center;
-  width: 305px;
-  right: 2px;
-  bottom: 0;
-  padding-top: 110px;
-  height: 100%;
   opacity: 0;
-  cursor: pointer;
-  -webkit-transform: scale(0.5);
-          transform: scale(0.5);
-  -webkit-transition: .3s all ease-in-out;
-  transition: .3s all ease-in-out;
-  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: .4s all ease-in-out;
+  transition: .4s all ease-in-out;
 }
 
-.overlay1 a {
+.slider-food .item:hover .over {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+.slider-food .item .contact {
   color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.slider-food .item .contact a {
   text-decoration: none;
-}
-
-.active {
-  outline: none;
-}
-
-.active span {
-  width: 20px !important;
-  height: 20px  !important;
-  background-color: red !important;
-}
-
-.owl-dot:first-child span {
-  width: 20px !important;
-  height: 20px !important;
-  background-color: red !important;
-}
-
-.owl-dot {
-  outline: none;
-}
-
-.owl-dot span {
-  width: 20px !important;
-  height: 20px !important;
-}
-
-.owl-dot:nth-child(2) span {
-  background-color: #240041 !important;
-}
-
-.owl-dot:nth-child(3) span {
-  background-color: #240041 !important;
+  color: #fff;
 }
 
 /*====end section customer====*/

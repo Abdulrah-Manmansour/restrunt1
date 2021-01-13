@@ -344,105 +344,53 @@ top: 30px;
     }
     .slider-food{
      background-color: $maincolor3;
-   padding: 50px 0;
+  padding: 30px 0;
     }
 
+
 }
-.item{
-    height: 300px;
-overflow: hidden;
-transition: .3s all ease-in-out;
-img{
-   width: 100%;
-   height: 100%;
-}
-.overlay{
-    position: absolute;
-    top: 0;
-   border-radius: 17px;
-    left: 0;
-    color: $whitecolor;
-    text-align: center;
+.slider-food .item{
     width: 300px;
-    right: 3px;
-    bottom: 0;
-    padding-top: 110px;
-    height: 290px;
-    opacity: 0;
-    cursor: pointer;
-    transform: scale(.5);
-    transition: .3s all ease-in-out;
-    background-color: rgba(0, 0, 0, 0.5);
-    a{
-        color: #fff;
-        text-decoration: none;
-    }
-}
-}
- .item:hover .overlay{
-     opacity: 1;
-     transform: scale(1);
- }
- .item:hover .overlay1{
-     opacity: 1;
-     transform: scale(1);
- }
-.overlay1{
+position: relative;
 
+margin: auto;
+
+}
+.slider-food .item img{
+    width: 100%;
+border-radius: 18px;
+height: 300px;
+}
+.slider-food .item .over{
     position: absolute;
     top: 0;
-   border-radius: 17px;
     left: 0;
-    color: $whitecolor;
-    text-align: center;
-    width: 305px;
-    right: 2px;
-    bottom: 0;
-    padding-top: 110px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
     height: 100%;
-    opacity: 0;
-    cursor: pointer;
-    transform: scale(.5);
-    transition: .3s all ease-in-out;
-    background-color: rgba(0, 0, 0, 0.5);
-    a{
-        color: #fff;
-        text-decoration: none;
-    }
+    border-radius: 18px;
+    color: #fff;
+transform: scale(.5);
+opacity: 0;
+transition: .4s all ease-in-out;
 }
-    .active{
-        outline: none;
-        span{
-            width: 20px !important ;
-            height: 20px  !important;
-            background-color: red !important;
-        }
-    }
-   .owl-dot:first-child{
-       span{
-           width: 20px !important ;
-            height: 20px !important ;
-            background-color: red !important;
-       }
-   }
-   .owl-dot{
-       outline: none ;
-    span{
-        width: 20px !important;
-        height: 20px !important; 
-        
-    }
+.slider-food .item:hover .over{
+    transform: scale(1);
+    opacity: 1;
 }
-.owl-dot:nth-child(2){
-    span{
-        background-color: $maincolor2 !important;
-    }
+.slider-food .item .contact {
+color: #fff;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
 }
-.owl-dot:nth-child(3){
-    span{
-        background-color:$maincolor2 !important;
-    }
+.slider-food .item .contact a{
+    text-decoration: none;
+    color: #fff;
 }
+  
 
 /*====end section customer====*/
 /*=====start footer=====*/
